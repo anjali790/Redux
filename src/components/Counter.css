@@ -1,1 +1,18 @@
+.counter_div {
+    text-align: center;
+}
 
+h1 {
+    color: rgb(102, 130, 159);
+}
+
+.button {
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: rgb(102, 130, 159);
+    font-size: 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
