@@ -3,12 +3,12 @@ import { useSelector } from 'react-redux';
 
 export function Counter() {
     const count = useSelector((state) => {
-        return state.counter;
-    })
+        return state.count;
+    });
 
     return (
         <>
-            <div>{count}</div>
+            <h1>{count}</h1>
             <button>Increment</button>
             <button>Decrement</button>
         </>
