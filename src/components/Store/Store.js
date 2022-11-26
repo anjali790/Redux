@@ -7,9 +7,9 @@ const DEFAULT_STATE = {
 
 const createrReducer = (state = DEFAULT_STATE, action) => {
     if (action.type === 'increment') {
-        return { ...state, count: state.count + 1 }
+        return { ...state, count: state.count + action.payload.step }
     } else if (action.type === 'decrement') {
-        return { ...state, count: state.count - 1 }
+        return { ...state, count: state.count - action.payload.step }
     }
     return state;
 }
