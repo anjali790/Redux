@@ -9,12 +9,12 @@ export function Counter() {
     });
 
     const handleIncrement = () => {
-        dispatch({ 'type': 'increment', 'payload': {'step': 5}});
+        dispatch({ 'type': 'increment', 'payload': { 'step': 5 } });
     };
 
     const handleDecrement = () => {
-        dispatch({ 'type': 'decrement', 'payload': {'step': 10} });
-        console.log(dispatch)
+        dispatch({ 'type': 'decrement', 'payload': { 'step': 10 } });
+        // console.log(dispatch)
     };
 
     return (
